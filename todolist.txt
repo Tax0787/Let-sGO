@@ -1,0 +1,8 @@
+WinApp O
+LOGO X
+WinLogoApp X
+WSL Ubuntu O
+REPLIT X
+TERMUX X
+OSX X
+OSX LOGO APP X
