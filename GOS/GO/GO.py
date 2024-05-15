@@ -34,11 +34,14 @@ def event():
     clr()
     ChangeColor()
 
+def END():
+    quit()
+
 class AppCore(metaclass = ABCMeta):
     def __init__(self):
         SENSER('space', self.__EVENT);
-        SENSER('enter', quit);
-        MAINLOOP();
+        SENSER('ctrl+space', END);
+        MAINLOOP('ctrl+space');
     
     @abstractmethod
     def __EVENT(self):
